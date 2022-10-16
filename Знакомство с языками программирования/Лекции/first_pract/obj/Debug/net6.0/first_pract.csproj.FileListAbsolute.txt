@@ -1,0 +1,15 @@
+C:\Users\akmal\Desktop\Новая папка\Geekbrains\Знакомство с языками программирования\first_lesson\C-lang\first_pract\bin\Debug\net6.0\first_pract.exe
+C:\Users\akmal\Desktop\Новая папка\Geekbrains\Знакомство с языками программирования\first_lesson\C-lang\first_pract\bin\Debug\net6.0\first_pract.deps.json
+C:\Users\akmal\Desktop\Новая папка\Geekbrains\Знакомство с языками программирования\first_lesson\C-lang\first_pract\bin\Debug\net6.0\first_pract.runtimeconfig.json
+C:\Users\akmal\Desktop\Новая папка\Geekbrains\Знакомство с языками программирования\first_lesson\C-lang\first_pract\bin\Debug\net6.0\first_pract.dll
+C:\Users\akmal\Desktop\Новая папка\Geekbrains\Знакомство с языками программирования\first_lesson\C-lang\first_pract\bin\Debug\net6.0\first_pract.pdb
+C:\Users\akmal\Desktop\Новая папка\Geekbrains\Знакомство с языками программирования\first_lesson\C-lang\first_pract\obj\Debug\net6.0\first_pract.csproj.AssemblyReference.cache
+C:\Users\akmal\Desktop\Новая папка\Geekbrains\Знакомство с языками программирования\first_lesson\C-lang\first_pract\obj\Debug\net6.0\first_pract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akmal\Desktop\Новая папка\Geekbrains\Знакомство с языками программирования\first_lesson\C-lang\first_pract\obj\Debug\net6.0\first_pract.AssemblyInfoInputs.cache
+C:\Users\akmal\Desktop\Новая папка\Geekbrains\Знакомство с языками программирования\first_lesson\C-lang\first_pract\obj\Debug\net6.0\first_pract.AssemblyInfo.cs
+C:\Users\akmal\Desktop\Новая папка\Geekbrains\Знакомство с языками программирования\first_lesson\C-lang\first_pract\obj\Debug\net6.0\first_pract.csproj.CoreCompileInputs.cache
+C:\Users\akmal\Desktop\Новая папка\Geekbrains\Знакомство с языками программирования\first_lesson\C-lang\first_pract\obj\Debug\net6.0\first_pract.dll
+C:\Users\akmal\Desktop\Новая папка\Geekbrains\Знакомство с языками программирования\first_lesson\C-lang\first_pract\obj\Debug\net6.0\refint\first_pract.dll
+C:\Users\akmal\Desktop\Новая папка\Geekbrains\Знакомство с языками программирования\first_lesson\C-lang\first_pract\obj\Debug\net6.0\first_pract.pdb
+C:\Users\akmal\Desktop\Новая папка\Geekbrains\Знакомство с языками программирования\first_lesson\C-lang\first_pract\obj\Debug\net6.0\first_pract.genruntimeconfig.cache
+C:\Users\akmal\Desktop\Новая папка\Geekbrains\Знакомство с языками программирования\first_lesson\C-lang\first_pract\obj\Debug\net6.0\ref\first_pract.dll
