@@ -1,0 +1,15 @@
+C:\Users\akmal\Desktop\Новая папка\Studying\Знакомство с языками программирования\Домашнее задание\homework_2\bin\Debug\net6.0\homework_2.exe
+C:\Users\akmal\Desktop\Новая папка\Studying\Знакомство с языками программирования\Домашнее задание\homework_2\bin\Debug\net6.0\homework_2.deps.json
+C:\Users\akmal\Desktop\Новая папка\Studying\Знакомство с языками программирования\Домашнее задание\homework_2\bin\Debug\net6.0\homework_2.runtimeconfig.json
+C:\Users\akmal\Desktop\Новая папка\Studying\Знакомство с языками программирования\Домашнее задание\homework_2\bin\Debug\net6.0\homework_2.dll
+C:\Users\akmal\Desktop\Новая папка\Studying\Знакомство с языками программирования\Домашнее задание\homework_2\bin\Debug\net6.0\homework_2.pdb
+C:\Users\akmal\Desktop\Новая папка\Studying\Знакомство с языками программирования\Домашнее задание\homework_2\obj\Debug\net6.0\homework_2.csproj.AssemblyReference.cache
+C:\Users\akmal\Desktop\Новая папка\Studying\Знакомство с языками программирования\Домашнее задание\homework_2\obj\Debug\net6.0\homework_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akmal\Desktop\Новая папка\Studying\Знакомство с языками программирования\Домашнее задание\homework_2\obj\Debug\net6.0\homework_2.AssemblyInfoInputs.cache
+C:\Users\akmal\Desktop\Новая папка\Studying\Знакомство с языками программирования\Домашнее задание\homework_2\obj\Debug\net6.0\homework_2.AssemblyInfo.cs
+C:\Users\akmal\Desktop\Новая папка\Studying\Знакомство с языками программирования\Домашнее задание\homework_2\obj\Debug\net6.0\homework_2.csproj.CoreCompileInputs.cache
+C:\Users\akmal\Desktop\Новая папка\Studying\Знакомство с языками программирования\Домашнее задание\homework_2\obj\Debug\net6.0\homework_2.dll
+C:\Users\akmal\Desktop\Новая папка\Studying\Знакомство с языками программирования\Домашнее задание\homework_2\obj\Debug\net6.0\refint\homework_2.dll
+C:\Users\akmal\Desktop\Новая папка\Studying\Знакомство с языками программирования\Домашнее задание\homework_2\obj\Debug\net6.0\homework_2.pdb
+C:\Users\akmal\Desktop\Новая папка\Studying\Знакомство с языками программирования\Домашнее задание\homework_2\obj\Debug\net6.0\homework_2.genruntimeconfig.cache
+C:\Users\akmal\Desktop\Новая папка\Studying\Знакомство с языками программирования\Домашнее задание\homework_2\obj\Debug\net6.0\ref\homework_2.dll
