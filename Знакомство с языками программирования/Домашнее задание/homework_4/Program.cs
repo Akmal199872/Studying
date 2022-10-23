@@ -37,9 +37,10 @@ void string_sum(int number_4) {
     int size = s_number_4.Length;
     
     for (int i = 0; i < size; i++) {
-        System.Console.WriteLine($"{result} = {result} + {s_number_4[i]}");
-        System.Console.WriteLine($"Значение {i} элемента массива: {s_number_4[i]}");
-        result = result + s_number_4[i];
+        int number_5 = int.Parse(s_number_4[i].ToString()); 
+        System.Console.WriteLine($"{result} = {result} + {number_5}");
+        System.Console.WriteLine($"Значение {i} элемента массива: {number_5}");
+        result = result + number_5;
         System.Console.WriteLine($"Результатом суммы будет: {result}");
     }
     System.Console.WriteLine($"Сумма цифр числа {number_4} равна {result}");
