@@ -9,15 +9,16 @@ System.Console.WriteLine();
 
 void PrintArray(int [] array) {
     string string_array = string.Join(" ", array);
-    System.Console.WriteLine(string_array);
+    System.Console.WriteLine($"Текущий массив: [ {string_array} ]");
 }
 
 void Timer() {
     var sw = new Stopwatch();
     sw.Start();
     
-    int [] array = new int [0];
+    int [] array = new int [1];
     int size = array.Length;
+    int count = 0;
     Boolean situation = true;
 
     while (situation == true) {
@@ -27,24 +28,27 @@ void Timer() {
         if (int.TryParse(input_number, out int number)) {
             System.Console.WriteLine($"Введено число = {number}");
             if (sw.ElapsedMilliseconds > 5000) {
-                System.Threading.Thread.Sleep(5000);
-                System.Console.WriteLine("Программа завершилась");
+                // System.Threading.Thread.Sleep(5000);
+                System.Console.WriteLine($"Программа завершилась числом: {number}.");
                 sw.Stop();
                 situation = false;
             }
             System.Console.WriteLine($"Прошло {sw.ElapsedMilliseconds} миллисекунд.");
-            System.Console.WriteLine();
+            // System.Console.WriteLine();
             sw.Restart();
-            size++;
-
-            // Здесь написать код FillArray
-            
-            // for (int i = 0; i <= size; i++) {
-            //     array[i] = number;
-            //     PrintArray(array);
-            // }
-
+            Array.Resize(ref array, size++);
             System.Console.WriteLine($"Размер массива = {array.Length}");
+            array[size - 2] = number;
+            PrintArray(array);
+            if (number > 0) {
+                count++;
+                System.Console.WriteLine($"Количество чисел больше нуля на данный момент = {count}.");
+                System.Console.WriteLine();
+            }
+            else {
+                System.Console.WriteLine($"Количество чисел больше нуля на данный момент = {count}.");
+                System.Console.WriteLine();
+            }
         }
         else {
             System.Console.WriteLine("Введено не число. Попробуйте ещё раз.");
@@ -53,7 +57,17 @@ void Timer() {
             sw.Restart();
         }
     }
-    
 }
 
-Timer();
+// Timer();
+
+
+
+// Задача №2
+
+System.Console.WriteLine();
+System.Console.WriteLine("Задача №2");
+System.Console.WriteLine();
+
+// y = k1 * x + b1, y = k2 * x + b2
+
