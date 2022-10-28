@@ -11,13 +11,15 @@ int b = int.Parse(Console.ReadLine());
 int max = 0;
 int min = 0;
 
-if (a > b) {
+if (a > b)
+{
     max = a;
     min = b;
     System.Console.WriteLine("Большее число = " + max);
     System.Console.WriteLine("Меньшее число = " + min);
 }
-else {
+else
+{
     max = b;
     min = a;
     System.Console.WriteLine("Большее число = " + max);
@@ -39,22 +41,28 @@ System.Console.WriteLine("Введите третье число");
 int e = int.Parse(Console.ReadLine());
 
 int max_1 = 0;
-if (c > d) {
-    if (c > e) {
+if (c > d)
+{
+    if (c > e)
+    {
         max_1 = c;
         System.Console.WriteLine("Максимальное число = " + max_1);
     }
-    else {
+    else
+    {
         max_1 = e;
         System.Console.WriteLine("Максимальное число = " + max_1);
     }
 }
-else {
-    if (d > e) {
+else
+{
+    if (d > e)
+    {
         max_1 = d;
         System.Console.WriteLine("Максимальное число = " + max_1);
     }
-    else {
+    else
+    {
         max_1 = e;
         System.Console.WriteLine("Максимальное число = " + max_1);
     }
@@ -70,10 +78,12 @@ System.Console.WriteLine("");
 System.Console.WriteLine("Введите любое число");
 int f = int.Parse(Console.ReadLine());
 
-if (f % 2 == 0) {
+if (f % 2 == 0)
+{
     System.Console.WriteLine("Делится без остатка");
 }
-else {
+else
+{
     System.Console.WriteLine("Делится с остатком");
 }
 
@@ -91,8 +101,10 @@ int i = 1;
 System.Console.WriteLine("");
 System.Console.WriteLine("Цикл запущен");
 
-while (i <= N) {
-    if (i % 2 == 0) {
+while (i <= N)
+{
+    if (i % 2 == 0)
+    {
         System.Console.WriteLine(i);
     }
     i++;
