@@ -1,9 +1,4 @@
 ﻿// Задача №1
-void PrintArray(int[] array)
-{
-    string string_array = string.Join(" ", array);
-    System.Console.WriteLine($"Текущий массив: [ {string_array} ]");
-}
 
 System.Console.WriteLine("Задача №1");
 System.Console.WriteLine();
