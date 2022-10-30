@@ -73,7 +73,7 @@ int[,] SortBiggetsToSmallest()
     return array;
 }
 
-// SortBiggetsToSmallest();
+SortBiggetsToSmallest();
 
 
 
@@ -118,7 +118,7 @@ int[,] SumRowArray()
     return array;
 }
 
-// SumRowArray();
+SumRowArray();
 
 
 
@@ -193,7 +193,7 @@ int[,] MultiplyMatrix()
     return ResultArray;
 }
 
-// MultiplyMatrix();
+MultiplyMatrix();
 
 
 
@@ -268,7 +268,7 @@ int[,,] FillThreeDimUniqueArray()
     return array;
 }
 
-// FillThreeDimUniqueArray();
+FillThreeDimUniqueArray();
 
 
 
@@ -310,7 +310,7 @@ int[,] SpiralArray()
     return array;
 }
 
-// SpiralArray();
+SpiralArray();
 
 
 
