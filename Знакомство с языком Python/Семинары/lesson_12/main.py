@@ -19,3 +19,5 @@ for i, j in list4:
 # Словарь:
 my_dict = dict(list4)
 print(f'\nСловарь:\n{my_dict}')
+
+print('new info')
