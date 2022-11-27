@@ -29,7 +29,7 @@ async def calculating_numbers(update: Update, context: ContextTypes.DEFAULT_TYPE
 
     # ui.choose_action()
 
-app = ApplicationBuilder().token("5978023098:AAFyfMqr5ITSQ2bN2etGjRHd7gb1nqnG-N4").build()
+app = ApplicationBuilder().token("5978023098:AAFyfMqr5ITSQ2b").build()
 print('server start')
 app.add_handler(CommandHandler("hello", hello))
 app.add_handler(CommandHandler("help", help_command))
