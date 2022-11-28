@@ -1,0 +1,4 @@
+1. Сайт работает на протоколе "https"
+2. head = "header"
+   body = "app"
+   footer = "footer-bottom"
