@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашняя работа №3</title>
+    <a rel="stylesheet" href="style.css"></a> 
+</head>
+<body>
+    <h1> Имя пользователя с помощью функции </h1>
+    <script>
+        function username() {
+            let name = prompt("Введите ваше имя");
+            alert(name);
+            document.write("Меня зовут ", `${name}`);
+        }
+        // username();
+    </script>
+    
+    <br> <br> <br> <br>
+    <h1> Калькулятор </h1>
+    <input type="text" id="value_1" value="0"> <button onclick="math_operation('-')" value=""> - </button> <input type="text" id="value_2" value="0"> = <input type="text" id="result" value="0">
+    <script>
+        function math_operation(operation) {          
+            value_1 = +document.getElementById("value_1").value; 
+            value_2 = +document.getElementById("value_2").value;
+            result = 0;
+            switch (true) {
+                case operation == "+":
+                    result = value_1 + value_2;
+                    document.getElementById("result").value = result;
+                    break;
+                case operation == "-":
+                    result = value_1 - value_2;
+                    document.getElementById("result").value = result;
+                    break;
+                case operation == "*":
+                    result = value_1 * value_2;
+                    document.getElementById("result").value = result;
+                    break;
+                case operation == "/":
+                    value_1 = parseFloat(document.getElementById("value_1").value);
+                    value_2 = parseFloat(document.getElementById("value_2").value);
+                    result = (value_1 != 0) && (value_2 != 0) ? value_1 / value_2 : "Деление на ноль";
+                    document.getElementById("result").value = result;
+                    break;
+                default:
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>

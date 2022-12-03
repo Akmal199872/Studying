@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Семинар 3</title>
+
+</head>
+<body>
+    <h1> Калькулятор </h1>
+    <input type="text" id="val1" value="0"> / <input type="text" id="val2" value="0"> <button onclick="divide()"> = </button> <input type="text" id="result" readonly value="0">
+    <br><br>
+    <button onclick="checkAge()">Проверить возраст</button>
+    
+    <script>
+        function add() {
+            val1 = +document.getElementById("val1").value;
+            val2 = +document.getElementById("val2").value;
+            result = val1 + val2;
+            document.getElementById("result").value = result;
+        }
+
+        function divide() {
+            val1 = parseFloat(document.getElementById("val1").value);
+            val2 = parseFloat(document.getElementById("val2").value);
+            result = (val2 != 0) ? val1 / val2 : "Деление на ноль";
+            document.getElementById("result").value = result;
+        }
+
+        function checkAge() {
+            age = 45;
+            switch (age) {
+                case 25:
+                    alert(25);       
+                    break;
+                case 45:
+                    alert(45);
+                    break;                    
+                default:
+                    break;
+            }
+        }
+
+
+        // let val1 = 4;
+        // let val2 = 5;
+        // result = val1 + val2;
+        // document.getElementById("app").innerText = `${val1} + ${val2} = ${result}`;
+        // document.getElementById("result").value = result;
+    </script>    
+</body>
+</html>
