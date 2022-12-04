@@ -15,12 +15,12 @@
             alert(name);
             document.write("Меня зовут ", `${name}`);
         }
-        // username();
+        username();
     </script>
     
     <br> <br> <br> <br>
     <h1> Калькулятор </h1>
-    <input type="text" id="value_1" value="0"> <button onclick="math_operation('-')" value=""> - </button> <input type="text" id="value_2" value="0"> = <input type="text" id="result" value="0">
+    <input type="text" id="value_1" value="0"> <button onclick="math_operation('/')" value=""> / </button> <input type="text" id="value_2" value="0"> = <input type="text" id="result" value="0">
     <script>
         function math_operation(operation) {          
             value_1 = +document.getElementById("value_1").value; 
