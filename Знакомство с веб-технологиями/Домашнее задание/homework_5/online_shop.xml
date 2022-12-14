@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<goods>
+    <product>
+        <category_product_name>
+            Хлебобулочные изделия
+
+            <product_info>
+                <name>
+                    Хлеб белый нарезной
+                </name>
+                <price>
+                    35 р
+                </price>
+            </product_info>
+
+            <product_info>
+                <name>
+                    Хлеб чёрный нарезной
+                </name>
+                <price>
+                    45 р
+                </price>
+            </product_info>
+
+            <product_info>
+                <name>
+                    Багет французский
+                </name>
+                <price>
+                    65 р
+                </price>
+            </product_info>
+            
+            <product_info>
+                <name>
+                    Булочка сладкая
+                </name>
+                <price>
+                    16
+                </price>
+            </product_info>
+        </category_product_name>
+        
+        <category_product_name>
+            Вода, соки, напитки
+
+            <product_info>
+                <name>
+                    Вода газированная
+                </name>
+                <price>
+                    39 р
+                </price>
+            </product_info>
+
+            <product_info>
+                <name>
+                    Вода минеральная
+                </name>
+                <price>
+                    55 р
+                </price>
+            </product_info>
+
+            <product_info>
+                <name>
+                    Кола
+                </name>
+                <price>
+                    85 р
+                </price>
+            </product_info>
+            
+            <product_info>
+                <name>
+                    Сок яблочный
+                </name>
+                <price>
+                    75 р
+                </price>
+            </product_info>
+        </category_product_name>        
+    </product>
+</goods>
